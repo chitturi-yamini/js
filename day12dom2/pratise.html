@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- color generator -->
+    <button onclick="bg()">color generator</button>
+    <script>
+        var arr=["orange","white","navy","green"];
+          count=0;
+        function bg(){
+            document.body.style.background=arr[count];
+            count++;
+            if(count==arr.length-0)count=0;
+        }
+    </script>
+</body>
+</html>

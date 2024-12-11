@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            margin-left:25%;
+            margin-top:5%;
+            border:6px solid black;
+            
+        }
+        button{
+            padding:10px;
+            background-color: gray;
+            margin-left:9%;
+           
+        }
+        #button1{
+            margin-left:30%;
+            
+        }
+         
+    </style>
+</head>
+<body>
+    <div id="image-container">
+        <img src="https://logodix.com/logo/330429.png"alt="broken"id="img"width="60%"height="500  %">
+        <br><br>
+        </div>
+        <div>
+        <button id="button1">TOM</button>
+        <button id="button2">JERRY</button>
+        <button id="button3">TOMJERRY</button>
+        <button id="button4">FAMILY</button>
+        
+    </div>
+   
+    <script>
+        var TOM=document.getElementById("button1")
+           TOM.addEventListener("click",()=>{
+           img.src="https://static.vecteezy.com/system/resources/previews/022/024/540/non_2x/tom-and-jerry-cartoon-free-vector.jpg";
+        });
+
+        var JERRY=document.getElementById("button2")
+        JERRY.addEventListener("click",()=>{
+            img.src="https://vignette.wikia.nocookie.net/cartooncharacters/images/2/2b/Jerrythemouse.jpg/revision/latest?cb=20180711194126";
+        });
+        var TOMJERRY=document.getElementById("button3")
+        TOMJERRY.addEventListener("click",()=>{
+            img.src="https://i.pinimg.com/originals/52/c6/65/52c665df0515dd447eb92544374cf543.jpg";
+        });
+        var FAMILY=document.getElementById("button4")
+        FAMILY.addEventListener("click",()=>{
+            img.src="https://i.pinimg.com/736x/5a/79/54/5a79545300b3c3bc4e9c92781a8bb808--tom-and-jerry-cartoon-nursery-rhymes-songs.jpg";
+        });
+       
+       
+        
+
+        
+    </script>
+</body>
+</html>
